@@ -1,0 +1,63 @@
+@import url('https://fonts.google.com/specimen/Open+Sans');
+
+:root{
+    --primary-color:#00FF92;
+    --dark-color:#222222;
+    --light-color:#f0f0f0;
+}
+body,html{
+    height: 100%;
+    background-color: var(--dark-color);
+}
+
+* > *{
+    font-family: 'poopins',sans-serif;
+}
+
+.cointainer{
+    display: block;
+    position: relative;
+    margin: 40px auto;
+    height: auto;
+    width: 800px;
+    padding: 90px;
+}
+
+.title-text-light{
+  color: #f0f0f0;
+  text-align: center;
+  font:1.4cm;
+}
+li{
+  font-size: medium;
+  color: #f0f0f0;
+  text-align:center;
+  list-style-type: none;
+}
+.start{
+  display:flex;
+  justify-content: center;
+  padding-top:1cm;
+}
+.btn{
+  padding:0.2cm;
+  border:none;
+  border-radius:0.2cm;
+  font-size:0.5cm ;
+  color:#202020;
+  text-decoration:none;
+  background-color: #faff5a;
+}
+#form{
+  display: flex;
+  justify-content: center;
+  margin-top: 2cm;
+  }
+.userid{
+  padding:.1cm.1cm;
+  width:30%;
+  border:none;
+  border-radius:3px;
+  font-size:medium;
+
+}
